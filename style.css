@@ -1,0 +1,122 @@
+body { background-color: ; 
+font-family: lighte;
+color: 1C5D99;
+font-family: 'Lora', serif;
+font-size: 16px;
+line-height: 25px;
+margin: 10 auto;
+}
+
+
+
+
+
+h1,h2,h3 { 
+	font-family: 'Open sans',sans-serif;}
+
+h1 { color: 8946A6; 
+ font-size: 33px;
+ font-weight: bold;}
+
+h2 {color: rgb(75, 75, 75);
+	border: 2px solid black;
+	border-color: #9F9AA4;
+	border-style: solid;
+	border-radius: 5px;
+   font-size: 24px;
+   font-weight: 500;
+   font-style: italic;
+   width: 200px;
+   box-shadow: 5px 5px 3px grey;
+  }
+
+img{ border-radius: 50%; 
+box-shadow: 1px 1px 3px grey;
+border: 5px solid #335C81;}
+
+p{ 
+ text-align: center; 
+}
+
+
+a{ text-decoration: none; 
+color:8946A6;
+font-weight: 500;
+font-size: 20px;
+}
+
+a:hover { 
+	color: D1495B; }
+
+}
+
+/*custom design with class*/
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+ /*For a screen < 960px, this Css will be read*/
+	.container {width: 700px;
+	}
+}
+@media (max-width: 720px)
+{/*For a screen< 720px, this Css will be read*/
+  .container {width: 500px}
+ }
+
+@media(max-width: 540px)
+{/*For a screen<540 px this Css will be read*/
+ .container{width: 400px}
+ }
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+	border-radius: 4px;
+	margin: 50px;
+}
+#CVTELMA{
+	color: #335C81;
+	border: 2px solid #335C81;
+	border-style: solid;
+	border-radius: 5px;
+	background: #E7CFCD;
+}
+
+#title{ text-align: center; }
+
+.list-inline{
+	text-align: center;
+	list-style: none;
+	padding-left: 0px;
+	color: #E7CFCD;
+	list-style-type: none;
+}
+
+.list-inside li{
+	display: inline; 
+	padding: 40px;
+}
+
+.list-inside i{ 
+font-size: 50px;
+font-weight: bolder; 
+color: #335C81;
+text-decoration: none;
+}
+
+.list-inside i:hover{
+	font-size: 50px;
+	color: #9F9AA4;
+}
+
+
+
+
+
+ 
+
